@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+   font-weight: 800;    
+}
+
+.buy-now-button{
+    color:#ffffff ;
+    
+    padding: 9px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow:none;
+    background-image: linear-gradient(to bottom,#000000 100%,#707070 0%);
+    border: none;
+}
+
+.container{
+    margin: 10px;
+}
