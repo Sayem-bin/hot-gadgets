@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -30,21 +30,24 @@
 
     </div>
 
- <div class="container">
+  
+
+  <div class="container">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div>
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li id="slide1" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li id="slide2" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li id="slide3" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+      </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
               <div class="row align-items-center">
                   <div class="col-md-5">
                       <h1>Mackbook Pro</h1>
-                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                          literature</p>
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                        <button class="buy-now-button">BUY NOW →</button>   
                   </div>
                   <div class="col-md-7"> 
@@ -60,7 +63,6 @@
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
                         literature</p>
                      <button class="buy-now-button" >BUY NOW →</button>  
-                      
                   </div>
                   <div class="col-md-7">
                     <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
@@ -83,22 +85,113 @@
               </div>           
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+    </div>
+  </div>    
+
+
+<div class="container categories" >
+
+  <h4>Smartphone</h4>
+
+   <div class="d-flex justify-content-end">
+     <h6>See All</h6>
+   </div>
+
+   <div class="card-deck">
+    <div class="card">
+      <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">iPhone 11 Pro</h5>
+        <p class="card-text">Some quick example text to build on the card title.</p>
+        <h5>$990</h5>
       </div>
- </div>
-<div class="container Smartphone" id="Smartphone">
-    <h4>Smartphone</h4>
-</div>
+      <div class="card-footer">
+        <button class="buy-now-button">BUY NOW →</button>
+      </div>
+      
+    </div>
+
+    <div class="card">
+      <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Samsung Galaxy Note10+</h5>
+        <p class="card-text">Some quick example text to build on the card title.</p>
+        <h5>$799</h5>
+      </div>
+      <div class="card-footer">
+        <button class="buy-now-button">BUY NOW →</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Huawei p30</h5>
+        <p class="card-text">Some quick example text to build on <br> the card title.</p>
+        <h5>$699</h5>
+      </div>
+      <div class="card-footer">
+        <button class="buy-now-button">BUY NOW →</button>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container categories">
+    <h4>Laptop</h4>
+    <div class="d-flex justify-content-end">
+      <h6>See All</h6>
+    </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus VivoBook </h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5>$999</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">BUY NOW →</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Razer Blade 15 </h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">BUY NOW →</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">BUY NOW →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <h4>Catagories</h4>
 
 
 
+    </div>
+
+
+
+    
+  
+
+    
+
+        
 
 
 
@@ -107,6 +200,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
