@@ -23,7 +23,6 @@ h6{
 
 .carousel-indicators li {
     box-sizing: content-box;
-
     cursor: pointer;
     align-items: center;
     border-top: 1px solid transparent;
@@ -59,6 +58,7 @@ h6{
 .row{
 
     margin-bottom: 50px;
+    padding:40px;
 }
 
 .card-deck{
@@ -88,4 +88,16 @@ h6{
 .card-img-top {
     
     padding: 25px;
+}
+
+h4{
+    margin: 50px;
+}
+
+.carousel-indicators li{
+    background-image: linear-gradient(to bottom, #FF9C35 0%, #FFD019 100%);
+    width: 90px;
+    height: 6px;
+    border-radius: 80px;
+
 }
